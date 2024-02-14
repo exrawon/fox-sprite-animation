@@ -5,8 +5,7 @@ window.addEventListener('load', () => {
 	const CANVAS_HEIGHT = (canvas.height = 600);
 	const userSelect = document.getElementById('user-select');
 
-	const playerImage = new Image();
-	playerImage.src = './assets/fox.png';
+	const playerImage = player; // html img #player in global scope
 	const spriteWidth = 575;
 	const spriteHeight = 523;
 	let playerState = 'idle';
