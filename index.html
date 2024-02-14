@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Fox Game | Fox Sprite Animation</title>
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="icon" href="./assets/icon.png" />
+	</head>
+	<body>
+		<img id="player" src="./assets/fox.png" />
+		<div class="wrapper">
+			<select name="animations" id="user-select">
+				<option value="idle">Idle</option>
+				<option value="jump">Jump</option>
+				<option value="fall">Fall</option>
+				<option value="run">Run</option>
+				<option value="dizzy">Dizzy</option>
+				<option value="sit">Sit</option>
+				<option value="roll">Roll</option>
+				<option value="bite">Bite</option>
+				<option value="faint">Faint</option>
+				<option value="recoil">Recoil</option>
+			</select>
+		</div>
+		<canvas id="canvas"></canvas>
+		<script src="./script.js" type="module"></script>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-color: hsl(0, 0%, 70%);
+}
+#canvas {
+	border: 5px black solid;
+	background-color: hsl(180, 100%, 30%);
+	width: 600px;
+	height: 600px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#player {
+	display: none;
+}
+.wrapper {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	width: 600px;
+	position: relative;
+	border: 5px black solid;
+	border-top: 10px black solid;
+	background-color: black;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+select {
+	font-size: 1.3rem;
+	text-align: center;
+	width: 200px;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+select:hover {
+	outline: rgb(94, 190, 255) 2px solid;
+}
